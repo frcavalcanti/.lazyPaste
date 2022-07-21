@@ -1,0 +1,16 @@
+{
+  "name": "myAutofiller",
+  "description": "Autofill social fields and others",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "welcome/background.js"
+  },
+
+  "permissions": ["storage", "activeTab", "declarativeContent"],
+
+  "action": {
+    "default_popup": "../ext/popup.html"
+  }
+
+}

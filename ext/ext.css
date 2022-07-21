@@ -1,0 +1,80 @@
+*:focus {
+  outline: none;
+}
+
+#socials {
+  display: flex;
+  padding: 15px;
+  border-radius: 10px;
+  background: #373737;
+  box-shadow: 1px 1px 10px 1px #151515; z-index: 99999999999;
+  align-items: center;
+}
+
+#left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  height: 30px;
+  margin: 7.5px;
+}
+
+#right {
+  flex-direction: column;
+  align-items: center;
+}
+
+.showRight {
+  display: flex;
+}
+
+textarea {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 15px;
+  height: 15px;
+  padding: 4px;
+  border-radius:4px;
+  color: #252525;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.ovfH {
+  word-wrap:unset;
+}
+
+::placeholder {
+  opacity: 0.8;
+  padding: 2px;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 20px;
+}
+
+img {
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.07);
+}
+
+button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#save {
+  margin-bottom: 5px;
+}
+
+button:hover {
+  color: rgb(253, 215, 28);
+}
