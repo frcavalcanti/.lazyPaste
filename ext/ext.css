@@ -16,11 +16,14 @@ body {
 }
 
 .lazyDev {
-  color: white;
+  color: #252525;
   font-family: 'Electrolize', sans-serif;
+  width: 100%;
+  text-align: center;
+  background-color: #F9D422;
+  margin-bottom: 8px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
-
-
 
 .leftAndRight {
   display: flex;
@@ -79,6 +82,7 @@ img {
   max-width: 40px;
   height: 40px;
   cursor: pointer;
+
 }
 
 
