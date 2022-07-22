@@ -1,30 +1,44 @@
+body {
+  margin: 0;
+}
+
 *:focus {
   outline: none;
 }
 
 #socials {
   display: flex;
-  padding: 15px;
-  border-radius: 10px;
+  flex-direction: column;
+  border-radius: 2px;
   background: #373737;
   box-shadow: 1px 1px 10px 1px #151515; z-index: 99999999999;
   align-items: center;
+}
+
+.lazyDev {
+  color: white;
+  font-family: 'Electrolize', sans-serif;
+}
+
+
+
+.leftAndRight {
+  display: flex;
+  flex-direction: row;
+  margin: 0 20px 0 20px;
 }
 
 #left {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.icon {
-  height: 30px;
-  margin: 7.5px;
+  justify-content: center;
 }
 
 #right {
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .showRight {
@@ -35,11 +49,13 @@ textarea {
   min-width: 250px;
   max-width: 250px;
   min-height: 15px;
+  margin: 9px;
   height: 15px;
   padding: 4px;
   border-radius:4px;
   color: #252525;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Play', sans-serif;
+  font-size: 12px;
 }
 
 .ovfH {
@@ -51,24 +67,62 @@ textarea {
   padding: 2px;
 }
 
-.buttons {
+.buttonsBot {
   display: flex;
-  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 15px 15px 15px;
+  gap: 5px;
 }
 
 img {
+  max-width: 40px;
+  height: 40px;
   cursor: pointer;
 }
+
 
 img:hover {
-  transform: scale(1.07);
+  transform: scale(1.1);
 }
 
+img:active {
+  transform: translateY(4px);
+  transition: 0.4s ease-out;
+}
+
+.iconNumber {
+  transform: scale(0.6)
+}
+
+#portfolio {
+  transform: scale(0.8);
+}
+
+
 button {
-  color: white;
+  color: #252525;
   background-color: transparent;
-  border: none;
   cursor: pointer;
+  font-family: 'Electrolize', sans-serif;
+  border: 2px solid #fff;
+  background-color:#F9D422 ;
+  padding: 6px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  color: #fff !important;
+  border: 2px solid #fff;
+  background-color:#22c0f99b;
+  transition: 0.3s ease-in-out;
+}
+
+button:active {
+  background-color: #F9D422;
+  box-shadow: 0 2px rgb(227, 157, 5);
+  transform: translateY(2px);
 }
 
 #save {
