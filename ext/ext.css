@@ -6,6 +6,7 @@ body {
   outline: none;
 }
 
+/* Main container */
 #socials {
   display: flex;
   flex-direction: column;
@@ -15,9 +16,11 @@ body {
   align-items: center;
 }
 
+/* Title */
 .lazyDev {
   color: #252525;
   font-family: 'Electrolize', sans-serif;
+  font-size: 13px;
   width: 100%;
   text-align: center;
   background-color: #F9D422;
@@ -25,19 +28,25 @@ body {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
+/* Both columns */
 .leftAndRight {
   display: flex;
   flex-direction: row;
   margin: 0 20px 0 20px;
 }
 
+/* Left */
 #left {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
+#copied {
+  transition: 0.3s ease-in-out;
+}
+
+/* Right */
 #right {
   flex-direction: column;
   align-items: center;
@@ -48,6 +57,7 @@ body {
   display: flex;
 }
 
+/* Input fields */
 textarea {
   min-width: 250px;
   max-width: 250px;
@@ -70,6 +80,8 @@ textarea {
   padding: 2px;
 }
 
+
+/* Buttons Container */
 .buttonsBot {
   display: flex;
   flex-direction: column;
@@ -78,11 +90,29 @@ textarea {
   gap: 5px;
 }
 
+.icon {
+  position: relative
+}
+
+
+p {
+  position: absolute;
+  top: 4px;
+  left: 1px;
+  color: #252525;
+  background-color: #f9d522dd;
+  border: 1px solid white;
+  padding: 1px 2px;
+  border-radius: 4px;
+  font-family: 'Play', sans-serif;
+  font-size: 10px;
+}
+
+/* Image icons */
 img {
   max-width: 40px;
   height: 40px;
   cursor: pointer;
-
 }
 
 
@@ -95,15 +125,40 @@ img:active {
   transition: 0.4s ease-out;
 }
 
-.iconNumber {
-  transform: scale(0.6)
-}
-
 #portfolio {
   transform: scale(0.8);
 }
 
 
+/* Number icons */
+.iconNumber {
+  font-family: 'Electrolize', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  border: 2px solid #F9D422;
+  border-radius: 2px;
+  padding: 4px 8px;
+  transition: 0.5s;
+  margin: 5px 0;
+}
+
+#one {
+  padding: 3.5px 10.5px;
+}
+
+.iconNumber:hover {
+  color: #252525;
+  background-color:#F9D422 ;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.iconNumber:active {
+  transform: translateY(4px);
+  transition: 0.4s ease-out;
+}
+
+/* Buttons */
 button {
   color: #252525;
   background-color: transparent;

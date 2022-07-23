@@ -1,6 +1,7 @@
 // [[ When SAVE = SET input AND GET ]]
 
 document.getElementById("save").addEventListener("click", () => {
+
   chrome.storage.sync.set ({
     formLinkedIn: document.getElementById("formLinkedIn").value,
     formGitHub: document.getElementById("formGitHub").value,
@@ -12,6 +13,7 @@ document.getElementById("save").addEventListener("click", () => {
     formThree: document.getElementById("formThree").value,
     formFour: document.getElementById("formFour").value,
     formFive: document.getElementById("formFive").value,
+
   },
     function() {
       chrome.storage.sync.get([
@@ -37,6 +39,7 @@ document.getElementById("save").addEventListener("click", () => {
           document.getElementById('formThree').textContent = result.formThree
           document.getElementById('formFour').textContent = result.formFour
           document.getElementById('formFive').textContent = result.formFive
+
         }
       )
     }
@@ -74,56 +77,146 @@ window.onload = function() {
   )
 };
 
-// [[ Copy each INPUT by IMG ]]
+// [[ Copy each INPUT by IMG - Refactor later]]
 
 document.getElementById("linkedIn").onclick = function () {
   let text = document.getElementById("formLinkedIn").textContent;
+  let copied = document.getElementById("copiedLinkedIn");
+
   navigator.clipboard.writeText(text)
+  if (copied.style.visibility === "hidden") {
+    copied.style.visibility = "visible"
+    setTimeout(() => {
+      copied.style.visibility = "hidden"
+    }, 300);
+    clearTimeout
+  }
 }
 
 document.getElementById("gitHub").onclick = function () {
   let text = document.getElementById("formGitHub").textContent;
+  let copied = document.getElementById("copiedGitHub")
+
   navigator.clipboard.writeText(text)
+  if (copied.style.visibility === "hidden") {
+    copied.style.visibility = "visible"
+    setTimeout(() => {
+      copied.style.visibility = "hidden"
+    }, 300);
+    clearTimeout
+  }
 }
 
 document.getElementById("instagram").onclick = function () {
   let text = document.getElementById("formInstagram").textContent;
+  let copied = document.getElementById("copiedInstagram")
+
   navigator.clipboard.writeText(text)
+  if (copied.style.visibility === "hidden") {
+    copied.style.visibility = "visible"
+    setTimeout(() => {
+      copied.style.visibility = "hidden"
+    }, 300);
+    clearTimeout
+  }
 }
 
 document.getElementById("twitter").onclick = function () {
   let text = document.getElementById("formTwitter").textContent;
+  let copied = document.getElementById("copiedTwitter")
+
   navigator.clipboard.writeText(text)
+  if (copied.style.visibility === "hidden") {
+    copied.style.visibility = "visible"
+    setTimeout(() => {
+      copied.style.visibility = "hidden"
+    }, 300);
+    clearTimeout
+  }
 }
 
 document.getElementById("portfolio").onclick = function () {
   let text = document.getElementById("formPortfolio").textContent;
+  let copied = document.getElementById("copiedPortfolio")
+
   navigator.clipboard.writeText(text)
+  if (copied.style.visibility === "hidden") {
+    copied.style.visibility = "visible"
+    setTimeout(() => {
+      copied.style.visibility = "hidden"
+    }, 300);
+    clearTimeout
+  }
 }
 
 document.getElementById("one").onclick = function () {
   let text = document.getElementById("formOne").textContent;
+  let copied = document.getElementById("copiedOne")
+
   navigator.clipboard.writeText(text)
+  if (copied.style.visibility === "hidden") {
+    copied.style.visibility = "visible"
+    setTimeout(() => {
+      copied.style.visibility = "hidden"
+    }, 300);
+    clearTimeout
+  }
 }
 
 document.getElementById("two").onclick = function () {
   let text = document.getElementById("formTwo").textContent;
+  let copied = document.getElementById("copiedTwo")
+
   navigator.clipboard.writeText(text)
+  if (copied.style.visibility === "hidden") {
+    copied.style.visibility = "visible"
+    setTimeout(() => {
+      copied.style.visibility = "hidden"
+    }, 300);
+    clearTimeout
+  }
 }
 
 document.getElementById("three").onclick = function () {
   let text = document.getElementById("formThree").textContent;
+  let copied = document.getElementById("copiedThree")
+
   navigator.clipboard.writeText(text)
+  if (copied.style.visibility === "hidden") {
+    copied.style.visibility = "visible"
+    setTimeout(() => {
+      copied.style.visibility = "hidden"
+    }, 300);
+    clearTimeout
+  }
 }
 
 document.getElementById("four").onclick = function () {
   let text = document.getElementById("formFour").textContent;
+  let copied = document.getElementById("copiedFour")
+
   navigator.clipboard.writeText(text)
+  if (copied.style.visibility === "hidden") {
+    copied.style.visibility = "visible"
+    setTimeout(() => {
+      copied.style.visibility = "hidden"
+    }, 300);
+    clearTimeout
+  }
 }
 
 document.getElementById("five").onclick = function () {
   let text = document.getElementById("formFive").textContent;
+  let copied = document.getElementById("copiedFive")
+
   navigator.clipboard.writeText(text)
+  if (copied.style.visibility === "hidden") {
+    copied.style.visibility = "visible"
+    setTimeout(() => {
+      copied.style.visibility = "hidden"
+    }, 300);
+    clearTimeout
+  }
 }
 
 // [[ Hide-Show RIGHT column ]]

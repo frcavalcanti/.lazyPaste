@@ -1,15 +1,17 @@
 {
-  "name": ".lazyDev",
-  "description": "Easy copy and paste for social network fields and others",
+  "name": ".lazyPaste: Copy/Paste made easy",
+  "description": "Easy copy and paste for social network fields and others that allows you to store your favorite texts. Alt + C o",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["storage", "activeTab", "declarativeContent"],
+  "permissions": ["storage"],
 
   "action": {
     "default_popup": "../ext/popup.html",
     "default_icon": {
       "16": "images/icon16.png",
-      "64": "images/icon64.png"
+      "64": "images/icon64.png",
+      "128": "images/icon64.png",
+      "256": "images/icon64.png"
     }
   },
 
@@ -17,12 +19,15 @@
       "_execute_action": {
         "suggested_key": {
           "default": "Alt+C"
+
         }
       }
     },
 
     "icons": {
       "16": "images/icon16.png",
-      "64": "images/icon64.png"
+      "64": "images/icon64.png",
+      "128": "images/icon64.png",
+      "256": "images/icon64.png"
     }
 }
