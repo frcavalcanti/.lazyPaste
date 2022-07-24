@@ -1,6 +1,6 @@
 {
   "name": ".lazyPaste: Copy/Paste made easy",
-  "description": "Easy copy and paste for social network fields and others that allows you to store your favorite texts. Alt + C o",
+  "description": "Easy COPY/PASTE for social network and personalized fields that allows you to store your favorite texts. Alt + C opens the extension pop-up.",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["storage"],
@@ -15,19 +15,18 @@
     }
   },
 
-    "commands": {
-      "_execute_action": {
-        "suggested_key": {
-          "default": "Alt+C"
-
-        }
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+C"
       }
-    },
-
-    "icons": {
-      "16": "images/icon16.png",
-      "64": "images/icon64.png",
-      "128": "images/icon64.png",
-      "256": "images/icon64.png"
     }
+  },
+
+  "icons": {
+    "16": "images/icon16.png",
+    "64": "images/icon64.png",
+    "128": "images/icon64.png",
+    "256": "images/icon64.png"
+  }
 }
