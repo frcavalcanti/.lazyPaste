@@ -28,7 +28,7 @@ If you have 125% scaling on your Windows display settings, a white bar will appe
 In case it is annoying you, you can set your monitor's scaling to 100% (right click on your desktop and go to display settings) and it will disappear.
 
 
-## 🤝 This project was created by
+## 🤝 Created by
 
 <table>
   <tr>
