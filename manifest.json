@@ -1,12 +1,14 @@
 {
   "name": ".lazyPaste: Copy/Paste made easy",
-  "description": "Easy COPY/PASTE for social network and personalized fields to store your favorite texts. Alt + C opens the extension pop-up.",
+  "description": "ddEasy COPY/PASTE for social network and personalized fields to store your favorite texts. Alt + C opens the extension pop-up.",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["storage"],
+  "permissions": ["storage", "tabs"],
+  "background": {
+    "service_worker": "/ext/background.js"
+  },
 
   "action": {
-    "default_popup": "../ext/popup.html",
     "default_icon": {
       "16": "images/icon16.png",
       "64": "images/icon64.png",
