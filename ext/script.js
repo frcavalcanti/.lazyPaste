@@ -138,24 +138,28 @@ function show() {
   if (right.style.display === "none") {
     right.style.display = "flex";
     button.data = "Collapse"
+    chrome.windows.update(chrome.windows.WINDOW_ID_CURRENT, { width: 370 })
   } else {
     right.style.display = "none";
     button.data = "Expand"
+    chrome.windows.update(chrome.windows.WINDOW_ID_CURRENT, { width: 190 })
   }
 }
 
-document.getElementById('left').addEventListener("click", () => {
-let updated = document.getElementById("header")
-let standard = ".lazyPaste"
-let altered = "Copied!"
+// [[Header text UPDATES copy/save]]
 
- if (updated.innerHTML === standard) {
+document.getElementById('left').addEventListener("click", () => {
+  let updated = document.getElementById("header")
+  let standard = ".lazyPaste"
+  let altered = "Copied!"
+
+  if (updated.innerHTML === standard) {
   updated.innerHTML =  altered
   setTimeout(() => {
     updated.innerHTML = standard
   }, 600);
   clearTimeout
- }
+  }
 })
 
 document.getElementById('save').addEventListener("click", () => {
