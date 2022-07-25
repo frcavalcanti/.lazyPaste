@@ -24,7 +24,7 @@ FYI
 
 ### Known issues
 
-If you have 125% scaling on your Windows display settings, a white bar will appear on the right and bottom sides of the pop-up. It is not a CSS problem.
+If you have 125% scaling on your Windows display settings, a white bar might appear on the right and bottom sides of the pop-up. It is not a CSS problem.
 In case it is annoying you, you can set your monitor's scaling to 100% (right click on your desktop and go to display settings) and it will disappear.
 
 
