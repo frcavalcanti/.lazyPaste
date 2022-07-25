@@ -7,9 +7,9 @@
 
 ## ☕ Installing and using .lazyPaste 
 
-You can find it in the Chrome Web Store:
+You can find it and intall it in the Chrome Web Store. (Google is reviewing it)
 
-> 1. To easily access it, just press "Alt + C"
+> 1. To easily access it, just press "Alt + C" in Chrome
 > 2. Press EXPAND and fill out the desired fields
 > 3. Press SAVE (you can then COLLAPSE if you wish)
 > 4. Left Click on the icon or number relative to the input field you inserted your text - this will COPY that text to your CLIPBOARD
