@@ -3,7 +3,7 @@
   "description": "Easy COPY/PASTE for social network and personalized fields to store your favorite texts. Alt + C opens the extension pop-up.",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["storage", "tabs"],
+  "permissions": ["storage"],
   "background": {
     "service_worker": "/ext/background.js"
   },
@@ -11,9 +11,7 @@
   "action": {
     "default_icon": {
       "16": "images/icon16.png",
-      "64": "images/icon64.png",
-      "128": "images/icon64.png",
-      "256": "images/icon64.png"
+      "64": "images/icon64.png"
     }
   },
 
@@ -27,8 +25,6 @@
 
   "icons": {
     "16": "images/icon16.png",
-    "64": "images/icon64.png",
-    "128": "images/icon64.png",
-    "256": "images/icon64.png"
+    "64": "images/icon64.png"
   }
 }
