@@ -1,5 +1,7 @@
 # .lazyPaste
 
+<img src="https://raw.githubusercontent.com/frcavalcanti/.lazypaste/master/images/display.png">
+
 > This project is a simple chrome extension developed to make copying & pasting your favorite links/texts an easy process.
 
 
