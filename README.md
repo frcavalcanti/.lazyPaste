@@ -1,11 +1,9 @@
 # .lazyPaste
 
-<img src="https://raw.githubusercontent.com/frcavalcanti/.lazypaste/master/images/display.png">
-
 > This project is a simple chrome extension developed to make copying & pasting your favorite links/texts an easy process.
 
 
-## ☕ Installing and using .lazyPaste 
+## ☕ Installing and using .lazyPaste
 
 You can find it and intall it in the Chrome Web Store. (Google is reviewing it)
 
@@ -21,12 +19,6 @@ FYI
  - Text is stored even after you shut down your PC as long as you're logged in a Google Account when saving and opening Chrome
  - To remove stored text, clear the desired field and when it is empty, click SAVE
  - You can temporarily resize fields 1 through 5 to look at what is stored for long texts
-
-### Known issues
-
-If you have 125% scaling on your Windows display settings, a white bar might appear on the right and bottom sides of the pop-up. It is not a CSS problem.
-In case it is annoying you, you can set your monitor's scaling to 100% (right click on your desktop and go to display settings) and it will disappear.
-
 
 ## 🤝 Created by
 
